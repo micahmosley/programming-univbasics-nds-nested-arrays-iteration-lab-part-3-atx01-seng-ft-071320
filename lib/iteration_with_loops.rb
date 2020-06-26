@@ -9,7 +9,7 @@ def join_nested_strings(src)
         if i==0 && j==0 
           combined=src[i][j]
         else 
-          combined=combined+src[i][j]
+          combined=combined+" "+src[i][j]
         end 
       end
       j+=1
